@@ -54,3 +54,4 @@ function renderReadingTime(article) {
 //   }
   
 //   renderReadingTime(document.querySelector("article"));
+    }
