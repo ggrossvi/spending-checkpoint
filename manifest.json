@@ -12,7 +12,7 @@
       "js": ["scripts/content.js"],
       "matches": [
         "https://www.target.com/p/*",
-        "https://www.amazon.com/gp/cart*",
+        
         "https://developer.chrome.com/docs/webstore/*"
       ]
     }
