@@ -35,7 +35,7 @@ Spending Checkpoint is a Chrome extension that initializes when the consumer has
 Team Members: (Alphabetical Order)
 Ainslie Francis, 
 Ann Cooper, 
-Babz Babz,  
+Babz Gaynor,  
 Dari Caceres, 
 Gloria Villa, 
 Maham Zia, 
