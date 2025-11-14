@@ -1,10 +1,30 @@
 {
-  "name": "Spending Checkpoint",
-  "description": "Chrome extension that pops up before purchasing something",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "My First Extension for GDI",
+  "version": "1.0",
+  "description": "A simple Chrome extension example.",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": {
+      "16": "penny-icon.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["storage","activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.target.com/cart*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }
