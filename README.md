@@ -35,10 +35,10 @@ Penny isn't here to shame you, she's here to help you checkin with your mental s
 
 # How to Add Extension
 
-Check out the Chrome Extension here! - Link
+Check out the Chrome Extension here! - Link (need link or don't share)?
 
 
-![screenshot](https://github.com/kscott16/spending-checkpoint/blob/main/images/penny_screenshot.png?raw=true)
+<img src="./images/penny_screenshot.png" />
 
 # Technologies Used
 
@@ -47,7 +47,7 @@ Check out the Chrome Extension here! - Link
 
 # Interested in reading more this project? 
 
-<p><a href="https://www.canva.com/design/DAG4mzJff6s/78ohuc7q9_uoxUJJBMI-Nw/edit?utm_content=DAG4mzJff6s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Checkout the presentation deck!</a></p>
+<p><a href="#">Checkout the presentation deck! (Need sharable link without editing permissions)</a></p> 
 <img src ="./images/presentation_screenshot.png" alt="Presentation screenshot" />
 
 # Team Members
