@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
+  <head>
+    <title>Spending Checkpoint</title>
+    <link rel="icon" href="images/penny-logo-128.png" type="image/png" />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <h3>Spending Checkpoint</h3>
 
-</body>
+    <div class="penny-container">
+      <img src="images/penny-logo-128.png" alt="Penny Logo" />
+    </div>
+
+    <div class="message-box">
+      <h4>
+        Before you click <span class="yes-text">YES</span> to this purchase...
+      </h4>
+      <p class="suggestion-text">
+        You could put this money towards your next trip!
+      </p>
+    </div>
+
+    <div class="total-box">
+      <span class="total-label">Your Spending Total</span>
+      <span id="totalDisplay">Loading...</span>
+    </div>
+
+    <button id="refreshBtn">Refresh</button>
+  </body>
 </html>
