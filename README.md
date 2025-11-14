@@ -28,8 +28,10 @@ Penny isn't here to shame you, she's here to help you checkin with your mental s
 <li>🌐 Available in other popular browswers such as Firefox</li>
 </ul>
 
+#How to Add Extension
 
 Check out the Chrome Extension here! - Link
+
 
 ![screenshot](https://github.com/kscott16/spending-checkpoint/blob/main/images/penny_screenshot.png?raw=true)
 
