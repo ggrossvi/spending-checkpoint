@@ -1,6 +1,7 @@
+console.log("popup.js reached");
 // The DOM elements
 const totalDisplay = document.getElementById("totalDisplay");
-const refreshBtn = document.getElementById("refreshBtn");
+//const refreshBtn = document.getElementById("refreshBtn");
 
 // Updates the total display
 function updateTotalDisplay(total) {
@@ -12,7 +13,7 @@ function updateTotalDisplay(total) {
 }
 
 // Gets total from storage
-async function loadStoredTotal() {
+export async function loadStoredTotal() {
   try {
     const result = await chrome.storage.local.get(["checkoutTotal"]);
     if (result.checkoutTotal) {
@@ -27,7 +28,7 @@ async function loadStoredTotal() {
 }
 
 // Requests total from active tab's content script
-async function refreshTotal() {
+export async function refreshTotal() {
   try {
     // Gets the active tab
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -75,15 +76,5 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 });
 
-// Refresh button click listener
-refreshBtn.addEventListener("click", () => {
-  totalDisplay.textContent = "Detecting...";
-  refreshTotal();
-});
 
-// Load stored total when popup opens
-loadStoredTotal();
-
-// Also try to refresh on popup open
-refreshTotal();
 

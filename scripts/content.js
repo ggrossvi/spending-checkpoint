@@ -7,7 +7,7 @@
     const allElements = Array.from(document.querySelectorAll("body *"));
 
     //Define key word matching pattern using Regex for variations of total
-    const keywordRegex = /(grand total|order total|estimated total|est\.?\s?total|subtotal|sub total|final total|final price|total due|total amount|amount due|amount to pay|due today|checkout total|payment total|item total|estimate|total)/i;
+    const keywordRegex = /(grand total|order total|estimated total|est\.?\s?total|subtotal|sub total|final total|checkouts|final price|total due|total amount|amount due|amount to pay|due today|checkout total|Subtotal|Total|payment total|item total|estimate|total)/i;
 
     //Define a pattern for matching text or elements that might be the price using regex
     const priceRegex = /(\$|USD)?\s?\d{1,5}(\.\d{2})?/;
