@@ -12,6 +12,8 @@ Chrome users who shop when experiencing any of the following: heightened stress,
 
 # Solution
 
+<img src="./images/penny-logo-500.png" style="height:300px; width:auto;">
+
 Meet Penny, your shopping buddy that helps you mentally checkin before you complete your online purchase. Before you complete a purchase, Penny will pop up to check in on you before you complete your checkout. She will notify you how much you're about to spend and remind you of your goals and potential savings by not ordering your items.
 
 Penny isn't here to shame you, she's here to help you checkin with your mental state and lead you to other solutions that can make you happy while keeping your financial goals in mind.
@@ -30,21 +32,28 @@ Penny isn't here to shame you, she's here to help you checkin with your mental s
 <li>🌟 Adding a "reward" notice when purchase is not made. Ex: "The non-purchase means you have an extra $25 towards your vacation savings!" [labor calculator]</li>
 <li>⏱ Timer function where the extension is only activated during peak impulse shopping hours. Ex: From 1900-0200 may be the times most likely for impulse shopping</li>
 <li>🌐 Available in other popular browswers such as Firefox</li>
+<li>Add a “Savings Goal” (like “Vacation Fund”)</li>
+<li>Integrate a motivational quote API when user cancels purchase</li>
+<li>Show “You could invest this $___ and earn $___ in 1 year!”</li>
+
+
 </ul>
 
 # How to Add Extension
 
-Check out the Chrome Extension here! - Link (need link or don't share)?
+We're still finetuning the code here. Please check back for future updates. 
 
-<img src="./images/penny_screenshot.png" />
+<img src="./images/penny_screenshot_light_mode.png" style="height:400px; width:auto;" /> <img src="./images/penny_screenshot_dark_mode.png" style="height:400px; width:auto;" />
 
 # Technologies Used
 
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt ="Javascript"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=CSS> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"> <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Chrome Extension">
 
+<p><img src="./images/introducing-Penny-screenshot.png" alt="extension screenshot"></p>
+
 # Interested in reading more this project?
 
-<p><a href="https://www.canva.com/design/DAG4mzJff6s/dS91hlC80IDlTvKgyxLsmA/view?utm_content=DAG4mzJff6s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c40615556">Checkout the presentation deck!</a></p>
+<p><a href="https://www.canva.com/design/DAG4mzJff6s/dS91hlC80IDlTvKgyxLsmA/view?utm_content=DAG4mzJff6s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c40615556" target="blank">Checkout the presentation deck!</a></p>
 
 <img src ="./images/presentation_screenshot.png" alt="Presentation screenshot" />
 
