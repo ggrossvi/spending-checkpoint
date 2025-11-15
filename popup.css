@@ -140,9 +140,9 @@ body {
   padding: 20px;
   width: 380px;
   background: linear-gradient(
-    135deg,
-    var(--bg-gradient-start) 0%,
-    var(--bg-gradient-end) 100%
+          135deg,
+          var(--bg-gradient-start) 0%,
+          var(--bg-gradient-end) 100%
   );
   margin: 0;
   color: var(--text-color);
@@ -157,9 +157,9 @@ h1 {
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   background: linear-gradient(
-    135deg,
-    var(--box-bg) 0%,
-    var(--box-bg-gradient-end) 100%
+          135deg,
+          var(--box-bg) 0%,
+          var(--box-bg-gradient-end) 100%
   );
   padding: 12px 20px;
   border-radius: 20px;
@@ -204,9 +204,9 @@ h1 {
 
 .message-box {
   background: linear-gradient(
-    135deg,
-    var(--box-bg) 0%,
-    var(--box-bg-gradient-end) 100%
+          135deg,
+          var(--box-bg) 0%,
+          var(--box-bg-gradient-end) 100%
   );
   padding: 16px;
   border-radius: 20px;
@@ -244,9 +244,9 @@ h1 {
 
 .total-box {
   background: linear-gradient(
-    135deg,
-    var(--navy-blue) 0%,
-    var(--soft-blue) 100%
+          135deg,
+          var(--navy-blue) 0%,
+          var(--soft-blue) 100%
   );
   padding: 16px;
   border-radius: 20px;
