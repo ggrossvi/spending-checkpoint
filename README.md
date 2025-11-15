@@ -2,7 +2,7 @@
 
 We live in a time when digital innovations have given rise to technologies and processes that redefine our wants into needs for instant gratification. In this era, ecommerce companies have arguably won the marketing race in understanding how to turn the most logical humans into rampant consumers. Combined with daily stressors of work/family and we have the perfect environment for impulse internet shopping.
 
-# Problem 
+# Problem
 
 People need to slow down when they find themselves "taking advantage of this great deal!". At this point, the item(s) have already been added to their shopping carts. Check out button(s) are even presented at multiple spots on the web page to make the instant gratification a reality. This is where the chrome extension will slow down the process.
 
@@ -12,9 +12,9 @@ Chrome users who shop when experiencing any of the following: heightened stress,
 
 # Solution
 
-Meet Penny, your shopping buddy that helps you mentally checkin before you complete your online purchase. Before you complete a purchase, Penny will pop up to check in on you before you complete your checkout. She will notify you how much you're about to spend and remind you of your goals and potential savings by not ordering your items. 
+Meet Penny, your shopping buddy that helps you mentally checkin before you complete your online purchase. Before you complete a purchase, Penny will pop up to check in on you before you complete your checkout. She will notify you how much you're about to spend and remind you of your goals and potential savings by not ordering your items.
 
-Penny isn't here to shame you, she's here to help you checkin with your mental state and lead you to other solutions that can make you happy while keeping your financial goals in mind. 
+Penny isn't here to shame you, she's here to help you checkin with your mental state and lead you to other solutions that can make you happy while keeping your financial goals in mind.
 
 # Goals
 
@@ -23,7 +23,6 @@ Penny isn't here to shame you, she's here to help you checkin with your mental s
 <li>Presented using non-offensive cartoon like characters</li>
 <li>Helps consumer slow down the instant gratification for a moment (or two) before proceeding or abandoning the cart</li>
 </ul>
-
 
 # IceBox Features
 
@@ -37,15 +36,13 @@ Penny isn't here to shame you, she's here to help you checkin with your mental s
 
 Check out the Chrome Extension here! - Link (need link or don't share)?
 
-
 <img src="./images/penny_screenshot.png" />
 
 # Technologies Used
 
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt ="Javascript"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=CSS> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"> <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Chrome Extension">
 
-
-# Interested in reading more this project? 
+# Interested in reading more this project?
 
 <p><a href="https://www.canva.com/design/DAG4mzJff6s/dS91hlC80IDlTvKgyxLsmA/view?utm_content=DAG4mzJff6s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c40615556">Checkout the presentation deck!</a></p>
 

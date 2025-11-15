@@ -1,32 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spending Checkpoint</title>
     <link rel="icon" href="images/penny-logo-128.png" type="image/png" />
     <link rel="stylesheet" href="popup.css" />
     <script src="popup.js" defer></script>
   </head>
   <body>
-    <h3>Spending Checkpoint</h3>
-
-    <div class="penny-container">
-      <img src="images/penny-logo-128.png" alt="Penny Logo" />
+    <!-- Dark Mode Toggle - OUTSIDE of main -->
+    <div class="theme-switch-wrapper">
+      <input
+        type="checkbox"
+        id="theme-toggle"
+        class="theme-checkbox"
+        aria-label="Toggle dark mode"
+      />
+      <label for="theme-toggle" class="theme-switch">
+        <span class="sun-icon" aria-hidden="true">☀️</span>
+        <span class="moon-icon" aria-hidden="true">🌙</span>
+      </label>
     </div>
 
-    <div class="message-box">
-      <h4>
-        Before you click <span class="yes-text">YES</span> to this purchase...
-      </h4>
-      <p class="suggestion-text">
-        You could put this money towards your next trip!
-      </p>
-    </div>
+    <main role="main" aria-label="Spending Checkpoint Extension">
+      <header>
+        <h1 id="main-heading">Spending Checkpoint</h1>
+      </header>
 
-    <div class="total-box">
-      <span class="total-label">Your Spending Total</span>
-      <span id="totalDisplay">Loading...</span>
-    </div>
+      <div
+        class="penny-container"
+        role="img"
+        aria-label="Penny the cat, your spending buddy"
+      >
+        <img
+          src="images/penny-logo-128.png"
+          alt="Penny the cat mascot with pink collar"
+        />
+      </div>
 
-    <button id="refreshBtn">Refresh</button>
+      <section class="message-box" aria-labelledby="pause-message">
+        <h2 id="pause-message" class="message-heading">
+          Before you click <span class="yes-text">YES</span> to this purchase...
+        </h2>
+        <p class="suggestion-text">
+          You could put this money towards your next trip!
+        </p>
+      </section>
+
+      <section class="total-box" aria-labelledby="spending-total">
+        <h2 id="spending-total" class="visually-hidden">
+          Your Current Spending Total
+        </h2>
+        <span class="total-label" aria-hidden="true">Your Spending Total</span>
+        <span id="totalDisplay" role="status" aria-live="polite"
+          >Loading...</span
+        >
+      </section>
+
+      <button id="refreshBtn" type="button" aria-label="Refresh spending total">
+        Refresh
+      </button>
+    </main>
   </body>
 </html>
