@@ -1,7 +1,12 @@
-// content.js — Robust Keyword-Based Total Detection
+// ================================
+// WRAP YOUR ORIGINAL CODE IN A FUNCTION
+// ================================
+function runDetection() {
 
-//See if we are on a checkout page; too many variations in URL, need other approach
-//if (window.location.href.includes("checkout") || window.location.href.includes("cart")) {
+    // ---- YOUR ORIGINAL CODE STARTS HERE ----
+
+    //See if we are on a checkout page; too many variations in URL, need other approach
+    //if (window.location.href.includes("checkout") || window.location.href.includes("cart")) {
 
     //Get every element in the body
     const allElements = Array.from(document.querySelectorAll("body *"));
@@ -72,4 +77,34 @@
     } else {
         console.log("❌ No total price candidates found.");
     }
-//}
+    //}
+
+    // ---- YOUR ORIGINAL CODE ENDS HERE ----
+}
+
+
+// ================================
+// RUN YOUR CODE ONCE IMMEDIATELY
+// ================================
+runDetection();
+
+
+// ================================
+// ADD MUTATION OBSERVER (minimal + clean)
+// ================================
+let lastRun = 0;
+
+const observer = new MutationObserver(() => {
+    // throttle to avoid excessive re-runs on dynamic sites
+    const now = Date.now();
+    if (now - lastRun < 800) return;
+    lastRun = now;
+
+    runDetection();
+});
+
+observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    characterData: true
+});

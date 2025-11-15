@@ -6,7 +6,7 @@
     <title>Spending Checkpoint</title>
     <link rel="icon" href="images/penny-logo-128.png" type="image/png" />
     <link rel="stylesheet" href="popup.css" />
-    <script src="popup.js" defer></script>
+<!--    <script src="popup.js" defer></script>-->
   </head>
   <body>
     <!-- Dark Mode Toggle - OUTSIDE of main -->
@@ -53,7 +53,7 @@
           Your Current Spending Total
         </h2>
         <span class="total-label" aria-hidden="true">Your Spending Total</span>
-        <span id="totalDisplay" role="status" aria-live="polite"
+        <span id="total" role="status" aria-live="polite"
           >Loading...</span
         >
       </section>
@@ -61,6 +61,7 @@
       <button id="refreshBtn" type="button" aria-label="Refresh spending total">
         Refresh
       </button>
+      <script src="popup.js"></script>
     </main>
   </body>
 </html>
