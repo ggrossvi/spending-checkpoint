@@ -3,8 +3,24 @@
   "description": "Chrome extension that pops up before purchasing something",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "hello_extensions.png"
-  }
+    "default_icon": {
+      "16": "images/penny-logo-16.png",
+      "32": "images/penny-logo-32.png",
+      "48": "images/penny-logo-48.png",
+      "128": "images/penny-logo-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }
